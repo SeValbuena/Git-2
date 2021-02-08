@@ -51,3 +51,22 @@ main{
     gap: 10px;
     grid-template-rows: repeat(auto-fill, minmax(100px,auto));
 }
+footer{
+    height: 40px;
+    background-color: royalblue;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+footer ul li{
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+} 
